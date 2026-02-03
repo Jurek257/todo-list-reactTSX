@@ -1,0 +1,21 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: white;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 2px solid var(--gray-color);
+}
+
+.todoItem button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todoItem button:hover {
+  transition: all 0.2s;
+  scale: 1.1;
+}

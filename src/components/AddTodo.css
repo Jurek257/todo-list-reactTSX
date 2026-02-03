@@ -1,0 +1,26 @@
+.addTodoElement {
+  display: flex;
+  border: 2px solid var(--akcent-color);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.addTodoElement input {
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+  font-size: 18px ;
+}
+
+.addTodoElement button {
+  height: 40px;
+  width: 40px;
+  background-color: var(--akcent-color);
+  color: white;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  cursor: pointer;
+}

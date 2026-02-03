@@ -1,0 +1,73 @@
+:root {
+  --bg-color: #fdf8f0;
+  --akcent-color: #5b86e5;
+  --gray-color: #d1d5db;
+  --standart-font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: 18px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Custom checkbox*/
+input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid var(--gray-color);
+  border-radius: 50%;
+
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+input[type='checkbox']:checked {
+  border-color: var(--akcent-color);
+}
+
+input[type='checkbox']:checked::after {
+  position: absolute;
+  content: "✓";
+  font-size: 28px;
+  color: var(--akcent-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.deleteTasks {
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: var(--akcent-color);
+  color: white;
+  font-size: var(--standart-font-size);
+  border-radius: 8px;
+  border: none;
+}
+
+.deleteTasks:hover {
+  transition: all 0.2s;
+  scale: 1.1;
+}
