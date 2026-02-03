@@ -1,35 +1,36 @@
 # ToDo Application
-Eine Anwendung ,die zum React + TypeScript erstellt wurde. 
 
-## Installiren und Launch
+Eine Anwendung, die zum Lernen von React + TypeScript erstellt wurde.
 
-```
-#Förderungen installiren
+## Installation und Start
+```bash
+# Abhängigkeiten installieren
 npm install
 
-#Im Entwickler-Modus öffnen
+# Im Entwicklungsmodus starten
 npm run dev
-
 ```
 
-## Technologie
+## Technologien
+
 - React 18
 - TypeScript
 - Vite (Build-Tool)
 - CSS3
-- local storage
+- localStorage
 
-## Funkzionalität
+## Funktionalität
 
 - Neue Aufgaben hinzufügen
-- Marken als abgeshlossen
+- Aufgaben als abgeschlossen markieren
 - Aufgaben entfernen
-- Aktive Aufgaben Zahler
-- Datei speichern (localStorage)
-- Alle Aufgaben Entfernung
+- Zähler für aktive Aufgaben
+- Daten speichern (localStorage)
+- Alle Aufgaben entfernen
 
-## Author
+## Autor
+
 Yurii Lobachov
 
-GitHub - https://github.com/Jurek257
-LinkedIn - www.linkedin.com/in/yurii-lobachov-960777358
+- GitHub: [https://github.com/Jurek257](https://github.com/Jurek257)
+- LinkedIn: [https://www.linkedin.com/in/yurii-lobachov-960777358](https://www.linkedin.com/in/yurii-lobachov-960777358)
