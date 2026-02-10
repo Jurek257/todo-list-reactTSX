@@ -10,6 +10,9 @@ npm install
 # Im Entwicklungsmodus starten
 npm run dev
 ```
+## Demo
+![How app look](https://github.com/Jurek257/todo-list-reactTSX/blob/main/Screenshot%20from%202026-02-10%2018-57-04.png)
+
 ## Live Demo
 Die Anwendung ist live verfügbar: [https://todo-list-react-tsx.vercel.app/](https://todo-list-react-tsx.vercel.app/)
 
